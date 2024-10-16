@@ -1,0 +1,171 @@
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards */
+  }
+  
+  .course-card {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 300px; /* Fixed width for cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Animation for hover effect */
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .course-title {
+    font-size: 1.5rem; /* Title font size */
+    margin: 0 0 10px; /* Margin below title */
+  }
+  
+  .course-description {
+    font-size: 1rem; /* Description font size */
+    margin: 0 0 15px; /* Margin below description */
+  }
+  
+  .course-link {
+    display: inline-block; /* Make the link a block element */
+    text-decoration: none; /* Remove underline */
+    background-color: #007bff; /* Link background color */
+    color: white; /* Link text color */
+    padding: 10px 15px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s; /* Animation for hover effect */
+  }
+  
+  .course-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .course-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .course-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .module-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .module-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .lesson-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lesson-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .lesson-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .lesson-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .lesson-topics {
+    margin: 10px 0;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .content-item {
+    margin-top: 10px;
+  }
+  
+  .video-content,
+  .audio-content,
+  .podcast-content {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+  }
+  
+  .not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+  }
+
+
+  .lesson-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.lesson-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.module {
+    margin-bottom: 20px;
+}
+
+.course-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #007bff; /* Module title color */
+}
+
+ul {
+    list-style-type: none; /* This removes the default bullet points */
+    padding: 0; /* Removes padding for a cleaner look */
+}
+  
+ 
