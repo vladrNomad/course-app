@@ -1,4 +1,4 @@
-#Overview
+##Overview
 The Course Catalogue App is a React-based web application that allows users to browse courses, view detailed modules, and access lesson content. The app uses TypeScript for type safety and CSS for styling, and is designed with scalability in mind.
 
 #Features
